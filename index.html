@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#171b17" />
+    <meta name="description" content="坦克 99A 视频播放页" />
+    <meta property="og:type" content="video.other" />
+    <meta property="og:title" content="坦克 99A · 视频播放" />
+    <meta property="og:description" content="打开页面，点击播放视频。" />
+    <meta property="og:image" content="https://sunbigfly.github.io/tank99a-video/media/poster.jpg" />
+    <title>坦克 99A · 视频播放</title>
+    <link rel="preload" href="./media/poster.jpg" as="image" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="页面标题">
+        <span class="site-mark" aria-hidden="true"></span>
+        <span>坦克 99A</span>
+        <span class="header-label">视频播放</span>
+      </header>
+
+      <main>
+        <div class="intro">
+          <p class="eyebrow">VIDEO · 00:39</p>
+          <h1>坦克 99A</h1>
+          <p class="lead">点击画面即可播放，支持手机全屏观看。</p>
+        </div>
+
+        <section class="player-section" aria-label="坦克 99A 视频">
+          <video
+            controls
+            playsinline
+            webkit-playsinline
+            preload="metadata"
+            poster="./media/poster.jpg"
+            aria-label="坦克 99A 视频，时长约 39 秒"
+          >
+            <source src="./media/tank99a.mp4" type="video/mp4" />
+            您的浏览器不支持视频播放。
+          </video>
+        </section>
+
+        <div class="under-player">
+          <span>MP4 · H.264 / AAC</span>
+          <a href="./media/tank99a.mp4">直接打开视频</a>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>坦克 99A</span>
+        <span>点击播放 · 约 39 秒</span>
+      </footer>
+    </div>
+  </body>
+</html>
