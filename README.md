@@ -1,6 +1,6 @@
 # 坦克 99A 视频播放页
 
-纯静态网页，部署在 GitHub Pages。`media/tank99a.mp4` 使用 H.264 视频和 AAC 音频，移动端打开页面后点击播放器即可观看。
+纯静态网页，部署在 GitHub Pages。播放器默认使用 JSDMirror 视频地址，仓库中的 `media/tank99a.mp4` 作为备用源。视频使用 H.264 编码和 AAC 音频，移动端打开页面后点击播放器即可观看。
 
 ## 文件
 
@@ -16,7 +16,7 @@
 ## 地址
 
 - 播放页：<https://sunbigfly.github.io/tank99a-video/>
-- 视频文件：<https://sunbigfly.github.io/tank99a-video/media/tank99a.mp4>
+- GitHub 备用视频文件：<https://sunbigfly.github.io/tank99a-video/media/tank99a.mp4>
 - JSDMirror 转换地址：<https://cdn.jsdmirror.com/gh/sunbigfly/tank99a-video@main/media/tank99a.mp4>
 - jsDelivr 转换地址：<https://cdn.jsdelivr.net/gh/sunbigfly/tank99a-video@main/media/tank99a.mp4>
 
