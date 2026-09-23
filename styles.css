@@ -117,6 +117,12 @@ video {
 
 .under-player a:hover { color: #fff0cc; }
 
+.player-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+}
+
 .site-footer {
   display: flex;
   min-height: 68px;
